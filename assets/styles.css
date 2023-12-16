@@ -95,162 +95,164 @@
     }
 }
 
-.slide1 {
-    background-image: url(../assets/img/ella-olsson-rD3YrnhTmf0-unsplash.jpg);
-    background-size: cover;
-    width: auto;
-    height: 800px;
-    background-repeat: no-repeat;
-}
-
-.slide1 div {
-    padding: 50px;
-}
-
-#subslide1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-#subslide1-2 {
-    font-family: 'Agbalumo';
-    font-size: 100px;
-    text-align: center;
-    margin-top: 100px;
-    color: var(--text)
-}
-
-
-.slide2 {
-    width: auto;
-    height: 600px;
-    background-color: #1F2B21;
-    display: flex;
-    padding: 50px;
-}
-
-.slide2 div {
-    padding: 50px;
-}
-
-#subslide2 {
-    font-family: 'Agbalumo';
-    font-size: 25px;
-    color: var(--text)
-}
-
-#subslide2-1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    margin-left: 50px;
-}
-
-.slide3 {
-    display: flex;
-    width: auto;
-    height: 500px;
-    padding: 50px;
-    margin-bottom: 50px;
-}
-
-.slide3 div {
-    margin-left: 20px;
-    align-content: center;
-}
-
-#subslide3-1 {
-    font-family: 'Agbalumo';
-    font-size: 50px;
-}
-
-#subslide3-2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 20px;
-}
-
-#chia {
-    width: 400px;
-    height: 500px;
-    margin-left: 300px;
-}
-
-.slide4 {
-    width: auto;
-    height: 500px;
-    margin-bottom: 200px;
-}
-
-img {
-    width: 400px;
-    height: 500px;
-}
-
-#brk {
-    background-color: rgb(255, 196, 0);
-    width: auto;
-    margin-top: -5px;
-    margin-left: -2px;
-    padding: 20px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-}
-
-
-.slide-flex {
-    display: flex;
-}
-
-.slide-flex div {
-    margin-left: 50px;
-}
-
-#button4 {
-    margin-left: 550px;
-    margin-top: 50px;
-    height: 50px;
-    width: 300px;
-    background-color: rgb(255, 196, 0);
-    border: solid 1px black;
-}
-
-#button3 {
-    height: 50px;
-    width: 300px;
-    background-color: rgb(255, 196, 0);
-    border: solid 1px black;
-    margin-top: 20px;
-    margin-left: 30px;
-}
-
-.slide5 {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 196, 0);
-    width: auto;
-    height: 500px;
-    padding: 50px;
-}
-
-#subslide5 {
-    font-family: 'Agbalumo';
-    font-size: 50px;
-}
-
-.sub-slide5 {
-    display: flex;
-    padding: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 150px;
-}
-
-h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.sub-slide5 div {
-    margin-left: 100px;
+@media only screen and (max-width:1024px){
+    .slide1 {
+        background-image: url(../assets/img/ella-olsson-rD3YrnhTmf0-unsplash.jpg);
+        background-size: cover;
+        width: auto;
+        height: 800px;
+        background-repeat: no-repeat;
+    }
+    
+    .slide1 div {
+        padding: 50px;
+    }
+    
+    #subslide1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    
+    #subslide1-2 {
+        font-family: 'Agbalumo';
+        font-size: 100px;
+        text-align: center;
+        margin-top: 100px;
+        color: var(--text)
+    }
+    
+    
+    .slide2 {
+        width: auto;
+        height: 600px;
+        background-color: #1F2B21;
+        display: flex;
+        padding: 50px;
+    }
+    
+    .slide2 div {
+        padding: 50px;
+    }
+    
+    #subslide2 {
+        font-family: 'Agbalumo';
+        font-size: 25px;
+        color: var(--text)
+    }
+    
+    #subslide2-1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        margin-left: 50px;
+    }
+    
+    .slide3 {
+        display: flex;
+        width: auto;
+        height: 500px;
+        padding: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .slide3 div {
+        margin-left: 20px;
+        align-content: center;
+    }
+    
+    #subslide3-1 {
+        font-family: 'Agbalumo';
+        font-size: 50px;
+    }
+    
+    #subslide3-2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 20px;
+    }
+    
+    #chia {
+        width: 400px;
+        height: 500px;
+        margin-left: 300px;
+    }
+    
+    .slide4 {
+        width: auto;
+        height: 500px;
+        margin-bottom: 200px;
+    }
+    
+    img {
+        width: 400px;
+        height: 500px;
+    }
+    
+    #brk {
+        background-color: rgb(255, 196, 0);
+        width: auto;
+        margin-top: -5px;
+        margin-left: -2px;
+        padding: 20px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+    
+    
+    .slide-flex {
+        display: flex;
+    }
+    
+    .slide-flex div {
+        margin-left: 50px;
+    }
+    
+    #button4 {
+        margin-left: 550px;
+        margin-top: 50px;
+        height: 50px;
+        width: 300px;
+        background-color: rgb(255, 196, 0);
+        border: solid 1px black;
+    }
+    
+    #button3 {
+        height: 50px;
+        width: 300px;
+        background-color: rgb(255, 196, 0);
+        border: solid 1px black;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .slide5 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 196, 0);
+        width: auto;
+        height: 500px;
+        padding: 50px;
+    }
+    
+    #subslide5 {
+        font-family: 'Agbalumo';
+        font-size: 50px;
+    }
+    
+    .sub-slide5 {
+        display: flex;
+        padding: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 150px;
+    }
+    
+    h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .sub-slide5 div {
+        margin-left: 100px;
+    }
 }
